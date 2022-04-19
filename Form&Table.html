@@ -8,12 +8,11 @@
 </head>
 <body style="background-color: lightblue;">
     <h1>HTML Forms & Table </h1>
-    <div style="width: 450px; background-color: aliceblue;">
     <form action="">
-        <table>
+        <table style="width: 450px; background-color: aliceblue;">
             <tr>
                 <td colspan="4">
-                    <p style="background-color: coral; text-align: center;">SỞ THÍCH CỦA BẠN</p>
+                    <p style="background-color: coral; text-align: center; color: white; font-size: large;">SỞ THÍCH CỦA BẠN</p>
                 </td>
             </tr>
             <tr>
@@ -51,6 +50,70 @@
             </tr>
         </table>
     </form>
-</div>
+    <br>
+    <form action="">
+        <table style="width: 450px; background-color: aliceblue;">
+            <tr>
+                <td colspan="4">
+                    <p style="background-color: aquamarine; text-align: center; color: blue; font-size: large;">ĐĂNG KÝ HỌC VIÊN</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Họ và tên</td>
+                <td>
+                    <input type="text" style="width: 300px;">
+                </td>
+            </tr>   
+            <tr>
+                <td>Ngày sinh</td>
+                <td>
+                    <input type="text" style="width: 150px;">
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" name="gt" id="gt">Nam
+                    <input type="radio" name="gt" id="gt">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td>
+                    <textarea name="" id="" cols="25" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>
+                    <select name="" id="" >
+                        <option value="" selected disabled hidden>--Chọn Lớp--</option>
+                        <option value="">Lớp A</option>
+                        <option value="">Lớp B</option>
+                        <option value="">Lớp C</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" name="" id="" style="width: 200px;">
+                </td>
+            </tr>
+            <tr>
+                <td>Số điện thoại</td>
+                <td>
+                    <input type="text" name="" id="" style="width: 200px;">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="Đăng ký">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
